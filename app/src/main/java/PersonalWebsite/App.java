@@ -19,7 +19,7 @@ public class App {
         get("/", (req, res) -> {
             Map<String, String> map = new HashMap<String, String>();
             map.put("name", "Mustafa Aydoğan");
-            map.put("mesaj", "Site hazırlanıyor..");
+            map.put("mesaj", "Site hazırlanıyor...");
             return new ModelAndView(map, "home.mustache");
         }, new MustacheTemplateEngine());
     }

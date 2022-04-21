@@ -1,5 +1,6 @@
-.baslik{
-    color:green;
+html, body {
+    max-width: max-content;
+    margin: auto;
 }
 
 #logo{
@@ -7,4 +8,33 @@
     margin-left: auto;
     margin-right: auto;
     width: 100px;
+}
+
+#topbutton{
+    position:absolute;
+    top:90%;
+    right:5%;
+} 
+
+#profil{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
